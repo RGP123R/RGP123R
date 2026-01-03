@@ -1,75 +1,167 @@
-<h1 align="center">👋 Hi, I'm Rohith G Prakash (RGP123R)</h1>
-<h3 align="center">AIML Student | Machine Learning Enthusiast | AI for Good Advocate</h3>
+# 👋 Hi, I’m Rohith G Prakash
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RGP123R&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
+**AI / Machine Learning Engineer | Full-Stack Developer | Responsible AI Enthusiast**
 
----
+I’m a final-year Artificial Intelligence & Machine Learning student focused on building real-world AI systems, scalable full-stack applications, and responsible, trustworthy ML solutions. I enjoy taking ideas from research → code → deployment.
 
-### 🧠 About Me
+## 🚀 Featured Projects
 
-- 🎓 I'm currently studying **Artificial Intelligence & Machine Learning (AIML)**
-- 🔭 Working on:
-  - **❝90 Days AIML Engineer Journey❞** — mastering ML end-to-end
-  - **DevOps repository** — scripts and workflows to streamline deployment
-- 🌱 Passionate about: **NLP**, **Computer Vision**, **Data Ethics**
-- 💡 Goals: Contribute to open-source AIML tools and build real‑world intelligent systems
+### 🧠 ClarityMedic AI
 
----
+**Agent-Based Responsible AI Auditing System**
 
-### 📊 GitHub Highlights
+A black-box AI auditor that evaluates ML models for risk, reliability, and deployment readiness without needing access to model internals.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RGP123R&show_icons=true&theme=vue-dark" alt="Rohith's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RGP123R&layout=compact&theme=vue-dark" alt="Top Languages" />
-</p>
+**What it does:**
 
-*(Uses “vue‑dark” theme—feel free to pick your vibe)*
+- Dataset health & imbalance analysis
+- Risk severity scoring
+- Deployment blocking decisions
+- Stakeholder-specific audit reports
 
----
+**Inputs:**
 
-### 🛠️ Featured Projects
+```
+--dataset data/heart.csv
+--model models/heart.pkl
+--target target
+--problem "Heart Disease Prediction"
+```
 
-- **[devops](https://github.com/RGP123R/devops)** – Automating ML model deployment & monitoring
-- **[90Days-AIEngineer-Journey](https://github.com/RGP123R/90Days-AIEngineer-Journey)** – Bootcamp-style learning path with hands-on notebooks & projects
-- **[Cherry‑ai‑](https://github.com/RGP123R/Cherry-ai-)** – (Assuming this is your AI‑focused project—update description accordingly)
+**Tech:** Python, scikit-learn, XGBoost  
+**Focus:** Responsible AI, Model Auditing, Governance
 
----
+### 🫀 Heart Disease Detection System
 
-### 🔧 Tech Stack
+**ML-Powered Clinical Risk Prediction Web App**
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes)
+A full-stack application that predicts heart disease risk using a calibrated XGBoost classifier.
 
----
+**Highlights:**
 
-### 📫 Connect With Me
+- Probability-based risk levels (Low / Medium / High)
+- Preprocessing pipeline (imputation + scaling)
+- ROC-AUC ≈ 0.85
 
-<p align="center">
-  <a href="mailto:rohithgprakash28@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/rohithgp/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/RGP123R">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white"/>
-  </a>
-</p>
+**Stack:**
 
----
+- Backend: Flask
+- Frontend: Next.js 16, TypeScript, Tailwind CSS
+- ML: XGBoost, scikit-learn
 
-### ⚡ Quick Coding Mantra
+### 🧠 Face Image Generator (VAE)
 
-```python
-for bug in code:
-    fix(bug)
-    test()
-    learn()
+**Generative AI using Variational Autoencoders**
+
+A deep-learning project that generates synthetic human face images by learning a probabilistic latent space.
+
+**Key Concepts:**
+
+- Encoder–Decoder CNN architecture
+- Reparameterization trick
+- Reconstruction + KL-divergence loss
+
+**Dataset:** CelebA  
+**Framework:** TensorFlow / Keras
+
+### 🎓 Attendance Management System (Face Recognition)
+
+**AI-Powered Automated Attendance Platform**
+
+A production-style system using real-time facial recognition to automate attendance.
+
+**Architecture:**
+
+- Frontend: Next.js + React
+- Backend: Node.js + Express
+- ML Service: FastAPI + DeepFace
+
+**Features:**
+
+- Face enrollment & embeddings
+- Live camera recognition
+- Attendance analytics dashboard
+- JWT authentication
+
+### 🔐 Hybrid RSA + AES Encryption System
+
+**Secure Data Encryption with Cryptography**
+
+A hybrid encryption system combining:
+
+- RSA-2048 for secure key exchange
+- AES-256 (CBC) for data encryption
+
+Includes GUI (Tkinter) and CLI modes.
+
+### 💬 MERN Stack Real-Time Chat App
+
+**Socket.io Based Messaging Platform**
+
+A scalable real-time chat application with authentication and online presence.
+
+**Features:**
+
+- Real-time messaging (Socket.io)
+- JWT authentication
+- Online/offline status
+- Zustand state management
+
+**Stack:** MongoDB, Express, React, Node.js, Tailwind CSS
+
+### 🔥 Forest Fire Detection
+
+**CNN-Based Image Classification**
+
+A deep learning model trained to detect forest fires from images using CNNs.  
+**Use case:** Environmental monitoring & disaster prevention.
+
+### 📰 Fake News Detector
+
+**NLP-Based News Classification System**
+
+A machine learning system that classifies news as real or fake.
+
+**Tech:**
+
+- TF-IDF + Logistic Regression
+- Text preprocessing with NLTK
+- Streamlit web interface
+
+## 🧰 Technical Skills
+
+### Languages
+
+- Python, JavaScript, TypeScript
+
+### AI / ML
+
+- scikit-learn, TensorFlow, Keras, XGBoost
+- CNNs, VAEs, NLP, Model Evaluation
+
+### Web Development
+
+- React, Next.js, Node.js, Express
+- REST APIs, JWT Authentication
+
+### Databases
+
+- MongoDB, SQLite
+
+### Tools
+
+- Git, GitHub, VS Code, Google Colab, Streamlit
+
+## 🎯 Career Focus
+
+- AI / Machine Learning Engineer
+- Applied ML & Data Science
+- Responsible & Explainable AI
+- Full-Stack AI Applications
+
+## 📫 Connect With Me
+
+- 💼 LinkedIn: (add your link)
+- 📧 Email: (add your email)
+
+⭐ If you find my projects useful, feel free to star the repositories!
